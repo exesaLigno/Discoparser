@@ -1,0 +1,615 @@
+[
+    [
+        "Сложность алгоритма динамического программирования для задачи о рюкзаке, который «помнит» о наиболее «легких» допустимых решениях:\n",
+        [
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/0/00/00385d8a760bc4372f4e34b467a97d0f/amsmath.source1.png, 25x81]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/0/04/048f7c5094aad391dfbbf5903e2394bf/amsmath.source1.png, 25x54]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/1/19/194a1917a97212ebf66b1a2dcbe01792/amsmath.source1.png, 22x63]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/c/c3/c3aa43f783617598fcaa1d78a11afa09/amsmath.source1.png, 25x72]",
+            "Нет правильного ответа"
+        ]
+    ],
+    [
+        "С какой точностью работает «чисто» жадный алгоритм для задачи о рюкзаке («хватать предметы по убыванию удельной стоимости, пока не кончится место в рюкзаке»)?\n",
+        [
+            "0.878",
+            "2",
+            "3",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/c/cf/cf8a995c45102d463716a50283c11030/amsmath.source1.png, 45x11]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/d/d0/d0547ba8c939e1621d6a68470fa10a3b/amsmath.source1.png, 45x11]",
+            "Этот алгоритм не гарантирует никакой точности решения"
+        ]
+    ],
+    [
+        "Рассмотрим пару задач на графах.\nP1\n Для заданного графа, подтвердить или опровергнуть, что в нем есть цикл, которые посещает однократно все вершины, кроме первой, в которую надо вернутся, чтобы завершить цикл.\nP2\n Для заданного графа, подтвердить или опровергнуть, что в нем есть цикл, который проходит по каждому ребру точно один раз, без исключений.\n",
+        [
+            "P1 в NPC, P2 в P.",
+            "P2 в NPC, P1 в P.",
+            "X  в NP, но не NP-полная.",
+            "Все остальные варианты — неверны.",
+            "Обе в NPC",
+            "Обе в P"
+        ]
+    ],
+    [
+        "[discopal.ispras.ru/img_auth.php/generated/latex/5/5b/5bf8633620132ca229e0effcd02a94ed/latex.source1.png, 217x759]\n",
+        [
+            "BPP",
+            "NP",
+            "PP",
+            "PSPACE",
+            "RP",
+            "ZPP",
+            "coRP",
+            "coZPP"
+        ]
+    ],
+    [
+        "Будет ли класс [discopal.ispras.ru/img_auth.php/generated/latex/b/bc/bc04a007e7d02782f3da027a17e93519/latex.source1.png, 15x30]-полных задач замкнутым относительно сводимости по Карпу, если окажется, что [discopal.ispras.ru/img_auth.php/generated/latex/f/f2/f20998438e600b6740be1f135f55b571/latex.source1.png, 15x77]?\n",
+        [
+            "Да;",
+            "Нет;"
+        ]
+    ],
+    [
+        "[discopal.ispras.ru/img_auth.php/generated/latex/5/51/51ec6125cd041ad533051d8fb646d743/latex.source1.png, 237x759]\n",
+        [
+            "BPP",
+            "NP",
+            "PP",
+            "PSPACE",
+            "RP",
+            "ZPP",
+            "coRP",
+            "coZPP"
+        ]
+    ],
+    [
+        "Задачи 3SAT и 2SAT:\n",
+        [
+            "Все остальные варианты — неверны.",
+            "Обе NP-полны",
+            "Обе в P",
+            "Первая NP-полна и вторая в P.",
+            "Первая неразрешима и вторая — NP-полна."
+        ]
+    ],
+    [
+        "Пусть S — задача из NPC, а Q и R — тоже задачи, но про них известно только, что \nQ — полиномиально сводиться по Карпу к S, а S — к R.\nЧто будет верно?\n",
+        [
+            "Q — NP-полная",
+            "Q — NP-трудная",
+            "R — NP-полная",
+            "R — NP-трудная"
+        ]
+    ],
+    [
+        "Что верно для NP-полных и NP-трудных задач:\n",
+        [
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/2/2b/2b2a05452d7f51f58feae0d3d576fb36/amsmath.source1.png, 19x204]",
+            "Все варианты, кроме «ничего не верно»",
+            "Если мы хотим доказать, что задача X — NP-трудна, мы берем известную NP-полную задачу Y и сводим ее полиномиально по Карпу к X.",
+            "Ничего не верно.",
+            "Первой задачей с доказанной NP-полнотой была CircuitSAT, «the circuit satisfiability problem»"
+        ]
+    ],
+    [
+        "У языков L1-L4 доказаны следующие полиномиальные сводимости по Карпу: «L1→L2», «L3→L2→L4»\nРассмотрим утверждения:\nI\n Если L4 в P, то L2 в P\nII\n Если L1 или L3 в P, то L2 в P\nIII\n L1 в P, тогда и только тогда, когда L3 в P\nIV\n Если L4 в P, то L1 в P и L3 в P.\n",
+        [
+            "Все остальные варианты — неверны.",
+            "Только (I)",
+            "Только (I) и (IV)",
+            "Только (II)",
+            "Только (III)"
+        ]
+    ],
+    [
+        "Рассмотрим две задачи разрешения, P1 и P2, такие что\n P1 сводится полиномиально по Карпу к 3SAT\n 3SAT сводится полиномиально по Карпу к P2\nЧто можно утверждать?\n",
+        [
+            "P1 в NP, P2 в NP-hard",
+            "P2 в NP, P1 в NP-hard",
+            "Все остальные варианты — неверны.",
+            "Обе в NP",
+            "Обе в NP-hard"
+        ]
+    ],
+    [
+        "Найдите неверное утверждение:\n",
+        [
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/1/1a/1a87d341d045239c8392f7fb2f485f6e/amsmath.source1.png, 18x117]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/1/1c/1c0ab7396b9c9262ed6dde14a157fb6c/amsmath.source1.png, 18x134]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/4/42/42950012eaa38e17a741e1f4f5c81655/amsmath.source1.png, 18x114]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/8/8f/8ff232be34c15cc92be52007e5041938/amsmath.source1.png, 18x100]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/a/a1/a1c5e00a96d4f658a40a0806e4ea3209/amsmath.source1.png, 19x180]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/f/f9/f9bd11dfd4c477fc04eca58dd67f96ca/amsmath.source1.png, 18x80]"
+        ]
+    ],
+    [
+        "[discopal.ispras.ru/img_auth.php/generated/latex/0/03/03d9f89e9c9d7e126c4a3455010d986f/latex.source1.png, 44x725]\n",
+        [
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/1/1c/1c7227ca07d527f245e23fa270d7ddc9/amsmath.source1.png, 18x129]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/1/1d/1db7669d9fbdeb0fb114be00a518fcd8/amsmath.source1.png, 14x140]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/5/5d/5da693cb3023f4eebc5b968c989ada92/amsmath.source1.png, 20x171]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/5/5d/5dc6b6f549b53c5f4cc32845e10a46d9/amsmath.source1.png, 15x223]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/c/c1/c19880d572a7166e8368b6f135cbfd43/amsmath.source1.png, 11x154]"
+        ]
+    ],
+    [
+        "[discopal.ispras.ru/img_auth.php/generated/latex/d/d2/d2c333cab7f46fd740f9ddb17213ccda/latex.source1.png, 212x759]\n",
+        [
+            "BPP",
+            "FPTAS",
+            "PP",
+            "RP",
+            "ZPP",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/f/f2/f26a962d62bf496e2724e5e9cf99a3f1/amsmath.source1.png, 28x72]",
+            "coRP",
+            "coZPP"
+        ]
+    ],
+    [
+        "Выберите верное утверждение\n",
+        [
+            "Верного ответа нет",
+            "Из сводимости по Карпу следует сводимость по Куку",
+            "Из сводимости по Куку следует сводимость по Карпу"
+        ]
+    ],
+    [
+        "Выберите не NP-полную задачу\n",
+        [
+            "2SAT",
+            "3SAT",
+            "SAT",
+            "TSP-выполнимость",
+            "Вершинное покрытие",
+            "Клика (есть ли в графе клика больше заданной)",
+            "Сумма множеств"
+        ]
+    ],
+    [
+        "Найдите неверное утверждение:\n",
+        [
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/4/42/42950012eaa38e17a741e1f4f5c81655/amsmath.source1.png, 18x114]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/6/6a/6ae77d0b965656d41c0fb1f660ee4b50/amsmath.source1.png, 19x181]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/7/75/750991743f63579ffa8c9076441bf4a0/amsmath.source1.png, 18x140]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/a/a1/a1c5e00a96d4f658a40a0806e4ea3209/amsmath.source1.png, 19x180]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/e/e6/e6f51ac26fe9780d7046422fc23886ed/amsmath.source1.png, 18x114]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/f/f9/f9bd11dfd4c477fc04eca58dd67f96ca/amsmath.source1.png, 18x80]"
+        ]
+    ],
+    [
+        "[discopal.ispras.ru/img_auth.php/generated/latex/9/9d/9dee411e6aa50ed479665de82ff6447b/latex.source1.png, 209x759]\n",
+        [
+            "ALL",
+            "BPP",
+            "NP",
+            "PP",
+            "PSPACE",
+            "RP",
+            "ZPP",
+            "coRP"
+        ]
+    ],
+    [
+        "Выберите корректное утверждение:\n",
+        [
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/1/19/19ee373363198cf9f6e789d3a6a16e75/amsmath.source1.png, 26x285]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/9/95/9524925a00ad99ded2545bcb61dadb28/amsmath.source1.png, 26x314]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/c/c0/c0349e38856a5b0180336e9231af05fc/amsmath.source1.png, 26x322]"
+        ]
+    ],
+    [
+        "[discopal.ispras.ru/img_auth.php/generated/latex/8/86/86185fff3da3bd8f341201948e85abf6/latex.source1.png, 246x759]\n",
+        [
+            "BPP",
+            "NP",
+            "PP",
+            "PSPACE",
+            "RP",
+            "ZPP",
+            "coRP",
+            "coZPP"
+        ]
+    ],
+    [
+        "Предположим, открыли полиномиальный алгоритм, вычисляющий наибольшую клику в заданном графе.\nЧто тогда будет, согласно вариантам на картинке?\n[discopal.ispras.ru/img_auth.php/thumb/b/b0/NPC-GQ08.png/640px-NPC-GQ08.png, 353x640]\n",
+        [
+            "A",
+            "B",
+            "C",
+            "D",
+            "Все остальные варианты — неверны."
+        ]
+    ],
+    [
+        "Какова точность, гарантируемая жадным алгоритмом в задаче о k-покрытии?\n",
+        [
+            "3",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/4/4a/4a64e3aa8b8165dece52ba4f5e1da7aa/amsmath.source1.png, 22x38]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/5/54/54fa08b43fb22ea5d0aabffcecb076b0/amsmath.source1.png, 19x67]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/6/64/6466c83e1b6ae402d10f67027cfb4d84/amsmath.source1.png, 45x11]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/d/d0/d0547ba8c939e1621d6a68470fa10a3b/amsmath.source1.png, 45x11]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/e/e3/e38c405aa88f4b7f1ad97aea5a408c93/amsmath.source1.png, 16x41]"
+        ]
+    ],
+    [
+        "[discopal.ispras.ru/img_auth.php/generated/latex/f/fa/fae2a319292ea9b8e9dc8f3533eec266/latex.source1.png, 194x766]\n",
+        [
+            "BPP",
+            "NP",
+            "PP",
+            "PSPACE",
+            "RP",
+            "ZPP",
+            "coRP",
+            "coZPP"
+        ]
+    ],
+    [
+        "[discopal.ispras.ru/img_auth.php/generated/latex/4/4e/4e388e3c5bd560f0eca1eccefa91457c/latex.source1.png, 236x759]\n",
+        [
+            "ALL",
+            "BPP",
+            "NP",
+            "PP",
+            "PSPACE",
+            "RP",
+            "ZPP",
+            "coRP"
+        ]
+    ],
+    [
+        "[discopal.ispras.ru/img_auth.php/generated/latex/d/d5/d502783f8560823ce8c6b53499900571/latex.source1.png, 202x759]\n",
+        [
+            "ALL",
+            "BPP",
+            "NP",
+            "PP",
+            "RP",
+            "ZPP",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/6/68/68d817e7e97afac558356408a3fac3f2/amsmath.source1.png, 19x56]",
+            "coNP",
+            "coRP"
+        ]
+    ],
+    [
+        "С какой точностью работает модифицированный жадный алгоритм для задачи о рюкзаке из соответствующей темы?\n",
+        [
+            "0.878",
+            "2",
+            "3",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/c/cf/cf8a995c45102d463716a50283c11030/amsmath.source1.png, 45x11]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/d/d0/d0547ba8c939e1621d6a68470fa10a3b/amsmath.source1.png, 45x11]",
+            "Этот алгоритм не гарантирует никакой точности решения;"
+        ]
+    ],
+    [
+        "Найдите неверное утверждение:\n",
+        [
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/3/39/39219b7151865442d0593aac83f60dd2/amsmath.source1.png, 19x164]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/4/4b/4b544cff078e653f659ecaedc578e0ce/amsmath.source1.png, 19x147]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/4/4e/4e68664d2f08a417c33613f5704fdebe/amsmath.source1.png, 18x116]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/7/75/750991743f63579ffa8c9076441bf4a0/amsmath.source1.png, 18x140]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/7/79/79dd4655367101a7e5e3e26d548225a5/amsmath.source1.png, 18x189]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/8/8b/8b137a293ce3ce1fe7f8068ffb2220ed/amsmath.source1.png, 18x203]"
+        ]
+    ],
+    [
+        "Какой алгоритм используется только в лучшем из рассмотренных в теме FPTAS-алгоритмов для рюкзака?\n",
+        [
+            "алгоритм Кристофидеса",
+            "дерандомизация",
+            "динамическое программирование с отбором наиболее легких наборов",
+            "жадный алгоритм для рюкзака"
+        ]
+    ],
+    [
+        "Пусть [discopal.ispras.ru/img_auth.php/generated/latex/0/08/08e65ea8970daec26ad8d89fe12465c9/latex.source1.png, 19x20] сводится по Карпу к [discopal.ispras.ru/img_auth.php/generated/latex/9/9e/9e79babca2f7b2b58f70cee37aad8047/latex.source1.png, 19x21]. Выберите верное утверждение:\n",
+        [
+            "Если [discopal.ispras.ru/img_auth.php/generated/latex/6/66/663bcb7eed8b3c5cd818bbb6c538fbdd/latex.source1.png, 19x86], то [discopal.ispras.ru/img_auth.php/generated/latex/c/cc/cc8b2e870f63acc19d67ee2a9a21e9c8/latex.source1.png, 19x86];",
+            "Если [discopal.ispras.ru/img_auth.php/generated/latex/a/a9/a90e75586e49217ddac2f998c1611e52/latex.source1.png, 19x96], то [discopal.ispras.ru/img_auth.php/generated/latex/9/98/9831a5444352917cc2fbbf2f5c915edd/latex.source1.png, 19x96];",
+            "Если [discopal.ispras.ru/img_auth.php/generated/latex/a/a9/a9ad5947cedfb4fd2c1c7e6326060685/latex.source1.png, 19x99], то [discopal.ispras.ru/img_auth.php/generated/latex/a/a7/a7d3b7da59dac63d3915db398db355ce/latex.source1.png, 19x99];"
+        ]
+    ],
+    [
+        "Аню и Колю попросили показать, что задача X — NP-полна.\nАня показала полиномиальную сводимость по Карпу от 3SAT к X, а Коля показал полиномиальную сводимость по Карпу от X к 3SAT.\nЧто можно утверждать?\n",
+        [
+            "X  в NP, но не NP-полная.",
+            "X — NP-полная.",
+            "X — NP-трудная, но не NP-полная.",
+            "X — не NP-полная, и вообще не в NP.",
+            "Все остальные варианты — неверны."
+        ]
+    ],
+    [
+        "Пусть задача A — «есть ли цикл в ненаправленном графе».\nРассмотрим набор утверждений.\n (1) Задача A — в P\n (2) Задача A — в NP\n (3) Если задача A — NP-полна, то существует НМТ, решающая A за полиномиальное время.\nЧто верно?\n",
+        [
+            "1 и 2",
+            "1 и 3",
+            "1, 2 и 3",
+            "2 и 3",
+            "Все остальные варианты — неверны."
+        ]
+    ],
+    [
+        "Какова точность, гарантируемая жадным алгоритмом в задаче о покрытии?\n",
+        [
+            "3",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/4/4a/4a64e3aa8b8165dece52ba4f5e1da7aa/amsmath.source1.png, 22x38]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/8/86/868eb5f1f06fb94758f9afe6ccc28d96/amsmath.source1.png, 20x49]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/c/ce/cee306a43940ec67325018f268a9aa16/amsmath.source1.png, 17x78]"
+        ]
+    ],
+    [
+        "[discopal.ispras.ru/img_auth.php/generated/latex/5/54/5409f38b76bae93cb8a00c35ad4798e8/latex.source1.png, 47x726]\n",
+        [
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/3/30/30007ab9df1e4849fd450028252f0beb/amsmath.source1.png, 15x142]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/3/3a/3ae9a2bfbc3c041242720a8931a2d847/amsmath.source1.png, 15x51]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/4/4f/4f9c62eb9dbdd75ea050874cd05dc8a3/amsmath.source1.png, 16x100]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/6/65/65769d0076ae07275e1e0a2cf88319b9/amsmath.source1.png, 16x45]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/6/6f/6f84218f1d162ab3233ecd26aee66b8d/amsmath.source1.png, 16x51]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/8/84/84d4ea7448059fc0c3e3123ab2a16756/amsmath.source1.png, 15x74]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/9/97/97dc74f1e1906dbbb59a1981ab48ff8d/amsmath.source1.png, 15x122]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/c/c5/c527563c7ab9b3439842b7265ca207a6/amsmath.source1.png, 15x34]"
+        ]
+    ],
+    [
+        "[discopal.ispras.ru/img_auth.php/generated/latex/d/d2/d2f32e24390d752f354fc8779aa1fed6/latex.source1.png, 209x759]\n",
+        [
+            "ALL",
+            "BPP",
+            "NP",
+            "PP",
+            "PTAS",
+            "RP",
+            "ZPP",
+            "coRP"
+        ]
+    ],
+    [
+        "Пусть\n [discopal.ispras.ru/img_auth.php/generated/amsmath/b/b1/b1dbc549f23d9deaf8c40be9609b5aa4/amsmath.source1.png, 20x79] — задача поиска гамильтонового цикла в графе [discopal.ispras.ru/img_auth.php/generated/amsmath/0/03/03d872d8674f0ce50a256a42a1da2011/amsmath.source1.png, 22x103], где V — делится на 3.\n [discopal.ispras.ru/img_auth.php/generated/amsmath/1/1f/1fb425545bf32b22f722bea2d80d5f53/amsmath.source1.png, 20x83] — задача подтверждения наличия гамильтонового цикла в таком графе.\nЧто верно?\n",
+        [
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/1/1f/1fb425545bf32b22f722bea2d80d5f53/amsmath.source1.png, 20x83] — NP-hard, но не [discopal.ispras.ru/img_auth.php/generated/amsmath/b/b1/b1dbc549f23d9deaf8c40be9609b5aa4/amsmath.source1.png, 20x79].",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/b/b1/b1dbc549f23d9deaf8c40be9609b5aa4/amsmath.source1.png, 20x79] и [discopal.ispras.ru/img_auth.php/generated/amsmath/1/1f/1fb425545bf32b22f722bea2d80d5f53/amsmath.source1.png, 20x83] — NP-трудны.",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/b/b1/b1dbc549f23d9deaf8c40be9609b5aa4/amsmath.source1.png, 20x79] — NP-hard, но не [discopal.ispras.ru/img_auth.php/generated/amsmath/1/1f/1fb425545bf32b22f722bea2d80d5f53/amsmath.source1.png, 20x83].",
+            "Все остальные варианты — неверны.",
+            "Они обе не NP-hard."
+        ]
+    ],
+    [
+        "Какой алгоритм используется в рассмотренных FPTAS-алгоритмах для рюкзака?\n",
+        [
+            "алгоритм Беллмана-Форда",
+            "алгоритм Немхаузера-Ульмана",
+            "динамическое программирование с отбором наиболее дорогих наборов",
+            "динамическое программирование с отбором наиболее легких наборов",
+            "метод условного спуска"
+        ]
+    ],
+    [
+        "[discopal.ispras.ru/img_auth.php/generated/latex/1/1d/1de11fab75c76980b7dcec7040926da1/latex.source1.png, 209x759]\n",
+        [
+            "BPP",
+            "NP",
+            "PP",
+            "PSPACE",
+            "RP",
+            "ZPP",
+            "coRP",
+            "coZPP"
+        ]
+    ],
+    [
+        "Пусть X — задача из NP.\nЧто верно?\n",
+        [
+            "X может быть неразрешима",
+            "X — NP-трудная",
+            "Все остальные варианты — неверны.",
+            "Если X можно решить за полиномиальное время на ДМТ, то P=NP",
+            "Если X — NP-hard, то она NP-полная",
+            "Нет полиномиального алгоритма для X"
+        ]
+    ],
+    [
+        "Какой прием используется в  FPTAS-алгоритме для рюкзака?\n",
+        [
+            "PTAS-апроксимация",
+            "вероятностное округление",
+            "дерандомизация",
+            "метод условного спуска",
+            "округление коэффициентов"
+        ]
+    ],
+    [
+        "Какова наилучшая сложность алгоритма из темы про FPTAS-алгоритмы для рюкзака?\n",
+        [
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/1/16/16a29cf2b30af8d3b2b50ddedde36c04/amsmath.source1.png, 42x61]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/5/56/561e67c661edad6f83b959760e05f6dd/amsmath.source1.png, 55x76]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/6/6c/6c5e290f1a8842fc8704808401c88531/amsmath.source1.png, 55x76]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/8/86/8696aa7f31da73e78941a0e8284064a5/amsmath.source1.png, 55x76]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/f/fe/fe28aec048228890a208fa44f0e09eed/amsmath.source1.png, 55x76]"
+        ]
+    ],
+    [
+        "Рассмотрим модификацию задачи «Сумма размеров», разрешим даже отрицательные размеры.\nФормально: Даны натуральные числа [discopal.ispras.ru/img_auth.php/generated/amsmath/c/ca/ca24495f49936b40eb0d33496c889298/amsmath.source1.png, 13x16], [discopal.ispras.ru/img_auth.php/generated/amsmath/0/02/0230b1aa0f56eb4c4ec428e848013415/amsmath.source1.png, 22x270], и число B.\nНадо узнать, существует ли решение в 0/1 переменных [discopal.ispras.ru/img_auth.php/generated/amsmath/d/dd/ddf0a7722e7d20b4cb56175dc75b204a/amsmath.source1.png, 22x108] уравнения [discopal.ispras.ru/img_auth.php/generated/amsmath/9/9f/9f409dc74e0e390375f82642c90e7617/amsmath.source1.png, 61x119].\nСуществует ли полиномиальный алгоритм для этой задачи?\n",
+        [
+            "Да, есть полиномиальный алгоритм",
+            "Нет, полиномиального алгоритма нет",
+            "Полиномиального нет, но есть квазиполиномиальный алгоритм"
+        ]
+    ],
+    [
+        "[discopal.ispras.ru/img_auth.php/generated/latex/f/f8/f8afa0922478d25a4614d5532e38bb40/latex.source1.png, 220x766]\n",
+        [
+            "BPP",
+            "NP",
+            "PP",
+            "PSPACE",
+            "RP",
+            "ZPP",
+            "coRP",
+            "coZPP"
+        ]
+    ],
+    [
+        "Задача 2SAT:\n",
+        [
+            "NP-полна",
+            "NP-трудна, но не NP-полна.",
+            "Все остальные варианты — неверны.",
+            "разрешима за константное время, т.к. любой вход для такой задачи выполним.",
+            "разрешима за полиномиальное время, но не за константное время."
+        ]
+    ],
+    [
+        "Пересечение двух каких классов окажется пустым, если окажется, что [discopal.ispras.ru/img_auth.php/generated/latex/b/b0/b0fb6c893671cc2d9e055e0d1f13d6da/latex.source1.png, 21x82]?\n",
+        [
+            "[discopal.ispras.ru/img_auth.php/generated/latex/a/ab/ab96a430c42cba6eed33f296a5998381/latex.source1.png, 15x14] и [discopal.ispras.ru/img_auth.php/generated/latex/5/50/500b1f4308f1e5f0dc4ebf1659497891/latex.source1.png, 16x40];",
+            "[discopal.ispras.ru/img_auth.php/generated/latex/a/ab/ab96a430c42cba6eed33f296a5998381/latex.source1.png, 15x14] и [discopal.ispras.ru/img_auth.php/generated/latex/e/ee/ee2cab544c38a85a8bbea12fb71ef2e1/latex.source1.png, 15x104];",
+            "[discopal.ispras.ru/img_auth.php/generated/latex/b/bc/bc04a007e7d02782f3da027a17e93519/latex.source1.png, 15x30] и [discopal.ispras.ru/img_auth.php/generated/latex/6/62/6280f1d549f2603dc8c7ed115acfe26c/latex.source1.png, 16x43];"
+        ]
+    ],
+    [
+        "Рассмотрим модификацию задачи «Сумма размеров», разрешим даже отрицательные размеры.\nФормально: Даны натуральные числа [discopal.ispras.ru/img_auth.php/generated/amsmath/c/ca/ca24495f49936b40eb0d33496c889298/amsmath.source1.png, 13x16], [discopal.ispras.ru/img_auth.php/generated/amsmath/1/1e/1e81760bf7afd8e3ceeb4487049e7323/amsmath.source1.png, 25x303], и число B.\nНадо узнать, существует ли решение в 0/1 переменных [discopal.ispras.ru/img_auth.php/generated/amsmath/d/dd/ddf0a7722e7d20b4cb56175dc75b204a/amsmath.source1.png, 22x108] уравнения [discopal.ispras.ru/img_auth.php/generated/amsmath/9/9f/9f409dc74e0e390375f82642c90e7617/amsmath.source1.png, 61x119].\nСуществует ли полиномиальный алгоритм для этой задачи?\n",
+        [
+            "Да, есть полиномиальный алгоритм",
+            "Нет, полиномиального алгоритма нет",
+            "Полиномиального нет, но есть квазиполиномиальный алгоритм",
+            "Полиномиального нет, но есть псевдополиномиальный алгоритм"
+        ]
+    ],
+    [
+        "Предположим, разумеется, что [discopal.ispras.ru/img_auth.php/generated/amsmath/6/65/650213800eeb52846e3b37997dc76f58/amsmath.source1.png, 21x83]\nТогда что будет верно?\n",
+        [
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/0/02/0211cefab59aa98755ced956bef3b824/amsmath.source1.png, 19x134]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/9/9b/9b33493f871acaaadf458211e7a817cd/amsmath.source1.png, 18x169]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/b/b4/b45a4408241a052c87b0efe96901b9f0/amsmath.source1.png, 18x98]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/f/f0/f0b72be507086e3a970e95288faefc3e/amsmath.source1.png, 18x120]"
+        ]
+    ],
+    [
+        "[discopal.ispras.ru/img_auth.php/generated/latex/9/9e/9e5bec081a6add044a54adf2d06c45aa/latex.source1.png, 209x759]\n",
+        [
+            "ALL",
+            "BPP",
+            "NP",
+            "PP",
+            "PTAS",
+            "RP",
+            "ZPP",
+            "coRP"
+        ]
+    ],
+    [
+        "[discopal.ispras.ru/img_auth.php/generated/latex/7/7f/7ffe843bc60baba7ef9e9871e384ec02/latex.source1.png, 209x759]\n",
+        [
+            "ALL",
+            "BPP",
+            "NP",
+            "PP",
+            "PSPACE",
+            "RP",
+            "ZPP",
+            "coRP"
+        ]
+    ],
+    [
+        "Выберите верное утверждение\n",
+        [
+            "[discopal.ispras.ru/img_auth.php/generated/latex/1/1b/1b666dadd84eee58d4c0bac02e24e888/latex.source1.png, 19x178]",
+            "[discopal.ispras.ru/img_auth.php/generated/latex/3/3a/3aa568e690b18b9d77aad1dfb1497cb1/latex.source1.png, 16x283];",
+            "[discopal.ispras.ru/img_auth.php/generated/latex/c/ca/cacf172be417eca1cbc8eed1f305cfe5/latex.source1.png, 18x192];"
+        ]
+    ],
+    [
+        "Выберите общепринятое определение класса NPC (NP-полных задач).\n[discopal.ispras.ru/img_auth.php/generated/amsmath/f/fa/fa8fbbcfe39ce667b61e4a57ce5dea22/amsmath.source1.png, 18x93] тогда и только тогда, когда:\n",
+        [
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/0/03/03940116a0f2794deec1e80580db2ab7/amsmath.source1.png, 32x358]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/0/05/05d9415d7600107b488671b4f61b53e8/amsmath.source1.png, 32x377]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/1/19/1989d0c9a53dd1924c14543abfeaf36c/amsmath.source1.png, 32x378]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/3/38/382a4138c5606a97bec24b4201385497/amsmath.source1.png, 31x264]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/3/3d/3d6eb9fe1619ed5e4a987641f23847a8/amsmath.source1.png, 32x348]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/4/4c/4c28a612ab2b22bcb282c64567d3d2eb/amsmath.source1.png, 31x252]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/8/83/839bdb1ddaf5d85b6a440bfe7861425a/amsmath.source1.png, 32x390]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/9/96/96cc3ea774f05c80246ac70fdc26e912/amsmath.source1.png, 18x164]"
+        ]
+    ],
+    [
+        "[discopal.ispras.ru/img_auth.php/generated/latex/8/8b/8be2487af45e41171ac2214bc5bff74a/latex.source1.png, 209x759]\n",
+        [
+            "BPP",
+            "NP",
+            "PP",
+            "PSPACE",
+            "RP",
+            "ZPP",
+            "coRP",
+            "coZPP"
+        ]
+    ],
+    [
+        "[discopal.ispras.ru/img_auth.php/generated/latex/5/5d/5d52a44292242d710488fbb7c8c9e4bd/latex.source1.png, 194x766]\n",
+        [
+            "BPP",
+            "NP",
+            "PP",
+            "PSPACE",
+            "RP",
+            "ZPP",
+            "coRP",
+            "coZPP"
+        ]
+    ],
+    [
+        "Сложность алгоритма динамического программирования для задачи о рюкзаке, который «помнит» о наиболее «дорогих» допустимых решениях:\n",
+        [
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/0/00/00385d8a760bc4372f4e34b467a97d0f/amsmath.source1.png, 25x81]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/0/04/048f7c5094aad391dfbbf5903e2394bf/amsmath.source1.png, 25x54]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/1/19/194a1917a97212ebf66b1a2dcbe01792/amsmath.source1.png, 22x63]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/6/64/64fb4a8dc182ef5afe65739ad51b7aeb/amsmath.source1.png, 25x72]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/c/c3/c3aa43f783617598fcaa1d78a11afa09/amsmath.source1.png, 25x72]"
+        ]
+    ],
+    [
+        "Какой из следующих классов не является замкнутым по полиномиальной сводимости в предположении, что [discopal.ispras.ru/img_auth.php/generated/latex/e/e5/e529cf1461ee1e545f1a31e3fd55e32a/latex.source1.png, 15x62]?\n",
+        [
+            "[discopal.ispras.ru/img_auth.php/generated/latex/5/50/500b1f4308f1e5f0dc4ebf1659497891/latex.source1.png, 16x40];",
+            "[discopal.ispras.ru/img_auth.php/generated/latex/7/7d/7d4bde6ca31329c3d6f1379a613aa278/latex.source1.png, 16x42];",
+            "[discopal.ispras.ru/img_auth.php/generated/latex/a/ab/ab96a430c42cba6eed33f296a5998381/latex.source1.png, 15x14];",
+            "[discopal.ispras.ru/img_auth.php/generated/latex/b/bc/bc04a007e7d02782f3da027a17e93519/latex.source1.png, 15x30];"
+        ]
+    ],
+    [
+        "Найдите неверное утверждение:\n",
+        [
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/1/17/17f4e43a999eb475771a02a8c85ab6f5/amsmath.source1.png, 18x100]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/4/42/42950012eaa38e17a741e1f4f5c81655/amsmath.source1.png, 18x114]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/8/8f/8ff232be34c15cc92be52007e5041938/amsmath.source1.png, 18x100]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/a/a1/a1c5e00a96d4f658a40a0806e4ea3209/amsmath.source1.png, 19x180]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/b/bf/bf651dfd343ec19033fd60cd7cc06640/amsmath.source1.png, 18x98]",
+            "[discopal.ispras.ru/img_auth.php/generated/amsmath/f/f9/f9bd11dfd4c477fc04eca58dd67f96ca/amsmath.source1.png, 18x80]"
+        ]
+    ],
+    [
+        "[discopal.ispras.ru/img_auth.php/generated/latex/7/70/706cf5266fd84911d6f7a8ecab29402e/latex.source1.png, 209x759]\n",
+        [
+            "BPP",
+            "NP",
+            "PP",
+            "PSPACE",
+            "RP",
+            "ZPP",
+            "coRP",
+            "coZPP"
+        ]
+    ],
+    [
+        "Существует ли биекция между классами [discopal.ispras.ru/img_auth.php/generated/latex/a/ab/ab96a430c42cba6eed33f296a5998381/latex.source1.png, 15x14] и [discopal.ispras.ru/img_auth.php/generated/latex/b/bc/bc04a007e7d02782f3da027a17e93519/latex.source1.png, 15x30]?\n",
+        [
+            "Да, существует;",
+            "Нет, не существует;",
+            "Ответ на этот вопрос нет, т.к. нам ничего неизвестно про равенство классов [discopal.ispras.ru/img_auth.php/generated/latex/a/ab/ab96a430c42cba6eed33f296a5998381/latex.source1.png, 15x14] и [discopal.ispras.ru/img_auth.php/generated/latex/b/bc/bc04a007e7d02782f3da027a17e93519/latex.source1.png, 15x30];"
+        ]
+    ]
+]
